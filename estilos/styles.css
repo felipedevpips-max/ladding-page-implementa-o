@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+@import url(../estilos/reset.css);
+@import url(../estilos/cabecalho.css);
+@import url(../estilos/container.css);
+
+
+:root {
+    --cor-de-fundo-light:#FFFFFF;
+    --texto-light:#232323;
+    --cor-de-fundo-dark:#0E1014;
+    --texto-dark:#FFFFFF;
+    --roxo:#9747FF;
+    --roxo-hover:#8233E8;
+    --fonte-principal:"Poppins", sans-serif;
+    --fonte-secundaria:"Unbounded", sans-serif;
+}
+
+body {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo-light);
+    color: var(--texto-light);
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+body.dark {
+    background-color: var(--cor-de-fundo-dark);
+    color: var(--texto-dark);
+}
+

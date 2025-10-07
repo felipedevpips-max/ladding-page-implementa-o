@@ -1,0 +1,28 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em 8em 0 8em;
+    margin-bottom: 3em;
+}
+
+.cabecalho__botao{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cabecalho {
+        padding: 2em 1em 1.2em;
+    }
+}
+@media screen and (max-width: 915px) {
+    .cabecalho {
+        padding:  1em 1.5em;
+
+    }
+}
